@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
+  root 'home#layout1'
+  get '/layout1' => 'home#layout1'
+  get '/layout2' => 'home#layout2'
   # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
+  # See how all your rowutes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
